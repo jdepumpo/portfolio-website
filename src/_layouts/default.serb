@@ -4,6 +4,7 @@
     {%@ "head", metadata: site.metadata, title: resource.data.title %}
   </head>
   <body class="{{ resource.data.layout }} {{ resource.data.page_class }}">
+    <alert-banner></alert-banner>
     {%@ Shared::Navbar metadata: site.metadata, resource: resource %}
 
     <main class="bg-white rounded-sm shadow-md xl:mx-auto max-w-7xl p-6 mx-4 my-8 sm:px-6 lg:px-8">
