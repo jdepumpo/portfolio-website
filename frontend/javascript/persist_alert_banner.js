@@ -1,15 +1,20 @@
-const turbolinksPersistAlerts = () => {
-  display = 0;
+let display = 0;
 
-  document.addEventListener('turbolinks:before-visit', (event) => {
-    display = document.getElementById("OpenToWorkAlert").dataset.alertBannerOffValue;
-    console.log("storing", display)
-  })
-
-  document.addEventListener('turbolinks:load', (event) => {
-    document.getElementById("OpenToWorkAlert").dataset.alertBannerOffValue = display;
-    console.log("rendering", display);
+const turboPersistAlertAfter = (display) => {
+  document.addEventListener('turbo:load', (event) => {
+    console.log("render", display)
+    if (display === 1) {
+      document.getElementById("OpenToWorkAlert").classList.add("hidden");
+    }
   })
 }
 
-turbolinksPersistAlerts();
+const turboPersistAlertBefore = () => {
+  document.addEventListener('turbo:before-visit', (event) => {
+    display = document.getElementById("OpenToWorkAlert").dataset.alertBannerOffValue;
+    console.log("storing", display)
+    turboPersistAlertAfter(display)
+  })
+}
+
+turboPersistAlertBefore();

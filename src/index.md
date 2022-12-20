@@ -5,18 +5,15 @@ layout: default
 ---
 <img src="/images/avatar.jpg" class="rounded-lg shadow-md mx-w-4 w-24 mr-3 mb-3">
 
-# Joe is a full-stack web developer.
-## I use proven tools to do blah, blah, and blah.
+# I bring ideas to life on the web by asking the right questions, always learning, and delivering clean, efficient code.
 
-You can learn more about how to build and deploy your new website by reading the  [Bridgetown documentation](https://www.bridgetownrb.com/docs).
+## Client-Side
 
-You can choose a [theme](https://github.com/topics/bridgetown-theme) or add some [plugins](https://www.bridgetownrb.com/plugins/) to get started quickly.
+I build client-side applications that strike a balance between the tried and true methods of HTML and CSS and bringing them to life with enhancements like Hotwire, TailwindCSS, and others.
 
-Be sure to check out the [Bridgetown Cards](https://bridgetown.cards) community site for helpful tips & tricks.
+## Backend
 
-If you run into any issues or have additional questions, please join us in our [Discord chat](https://discord.gg/4E6hktQGz4) or in [GitHub discussions](https://github.com/bridgetownrb/bridgetown/discussions).
-
-_Have fun and **good luck**!_
+I build scalable and maintainable server applications with a focus on Ruby on Rails.
 
 ----
 

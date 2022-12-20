@@ -12,7 +12,7 @@ import { Application } from "@hotwired/stimulus"
 // on your <main> element for pages where you don't want any transition animation.
 //
 import "./turbo_transitions.js"
-import "./persist_alert_banner.js"
+//import "./persist_alert_banner.js"
 
 // Import all JavaScript & CSS files from src/_components
 // To opt into `.global.css` & `.lit.css` nomenclature, change the `css` extension below to `global.css`.
