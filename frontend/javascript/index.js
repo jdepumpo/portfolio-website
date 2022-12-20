@@ -2,7 +2,8 @@ import "bridgetown-lit-renderer"
 import "index.css"
 import "syntax-highlighting.css"
 import * as Turbo from "@hotwired/turbo"
-import "@fortawesome/fontawesome-free/"
+import "@fortawesome/fontawesome-free/css/all"
+
 
 // Uncomment the line below to add transition animations when Turbo navigates.
 // We recommend adding <meta name="turbo-cache-control" content="no-preview" />
@@ -15,8 +16,5 @@ import "@fortawesome/fontawesome-free/"
 // To opt into `.global.css` & `.lit.css` nomenclature, change the `css` extension below to `global.css`.
 // Read https://edge.bridgetownrb.com/docs/components/lit#sidecar-css-files for documentation.
 import components from "bridgetownComponents/**/*.{js,jsx,js.rb,css}"
-
-
-FontAwesome.config.mutateApproach = 'sync'
 
 console.info("Bridgetown is loaded!")

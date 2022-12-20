@@ -8,8 +8,6 @@ layout: default
 # Joe is a full-stack web developer.
 ## I use proven tools to do blah, blah, and blah.
 
-<i class="fa-solid fa-franc-sign"></i>
-
 You can learn more about how to build and deploy your new website by reading the  [Bridgetown documentation](https://www.bridgetownrb.com/docs).
 
 You can choose a [theme](https://github.com/topics/bridgetown-theme) or add some [plugins](https://www.bridgetownrb.com/plugins/) to get started quickly.
