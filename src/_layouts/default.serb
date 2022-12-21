@@ -8,7 +8,9 @@
     <alert-banner></alert-banner>
     {%@ Shared::Navbar metadata: site.metadata, resource: resource %}
 
-    <main class="bg-white rounded-sm shadow-md xl:mx-auto max-w-7xl p-6 mx-4 my-8 sm:px-6 lg:px-8">
+<!-- class="bg-white xl:mx-auto max-w-7xl p-6 mx-4 my-8 sm:px-6 lg:px-8" -->
+
+    <main>
       {%= yield %}
     </main>
 

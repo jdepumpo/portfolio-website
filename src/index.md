@@ -1,9 +1,6 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-
-layout: default
+layout: index
 ---
-<img src="/images/avatar.jpg" class="rounded-lg shadow-md mx-w-4 w-24 mr-3 mb-3">
 
 # I bring ideas to life on the web by asking the right questions, always learning, and delivering clean, efficient code.
 

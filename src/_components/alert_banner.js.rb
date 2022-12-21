@@ -2,7 +2,7 @@ class AlertBanner < HTMLElement
   def connected_callback()
     self.inner_html = "
     <div id='OpenToWorkAlert' data-controller='alert-banner' data-alert-banner-off-value='0' class='bg-blue-200 px-2 py-4 flex flex-row items-center outline outline-2 outline-slate-400'>
-      <div class='flex flex-wrap lg:flex-nowrap text-center grow justify-center sm:max-md:gap-y-2'>
+      <div class='flex flex-wrap lg:flex-nowrap grow justify-between px-2 sm:max-md:gap-y-4 max-w-7xl mx-auto'>
         <div class='basis-2/3'>
           <span>I am currently <strong>#OpenToWork</strong> and would be thrilled to discuss your opportunity.</span>
         </div>
