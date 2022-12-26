@@ -2,6 +2,10 @@
 layout: index
 ---
 
+{% collections.pages.resources.where( {navbar: true }).each do |page| %}
+  {%= page.relative_url %}
+{% end %}
+
 # I bring ideas to life on the web by asking the right questions, always learning, and delivering clean, efficient code.
 
 ## Client-Side

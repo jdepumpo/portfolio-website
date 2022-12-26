@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: no_contain
 ---
 
 <div class="w-full h-96 bg-gradient-to-b from-blue-900 to-blue-400 p-4 relative z-0 overflow-hidden">
