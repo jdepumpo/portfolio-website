@@ -32,3 +32,9 @@ template_engine: serbea
 # timezone: America/Los_Angeles
 # pagination:
 #   enabled: true
+
+collections:
+  projects:
+    output: true
+    permalink: simple
+    dates: false

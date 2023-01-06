@@ -1,10 +1,8 @@
 ---
 layout: index
+category:
+  - top_nav
 ---
-
-{% collections.pages.resources.where( {navbar: true }).each do |page| %}
-  {%= page.relative_url %}
-{% end %}
 
 # I bring ideas to life on the web by asking the right questions, always learning, and delivering clean, efficient code.
 
@@ -14,7 +12,11 @@ I build client-side applications that strike a balance between the tried and tru
 
 ## Backend
 
-I build scalable and maintainable server applications with a focus on Ruby on Rails.
+I build scalable and maintainable server applications with a focus on Ruby on Rails 7.
+
+## Previosuly
+
+In addition to full applications, I have experience building out UI component libraries.
 
 ----
 
