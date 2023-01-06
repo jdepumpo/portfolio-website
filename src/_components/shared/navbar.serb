@@ -46,7 +46,7 @@
 
             <a href="{{'/about' | relative_url}}" class="text-blue-200 hover:bg-blue-800 hover:text-white px-3 py-2 rounded-md font-medium no-underline">About</a>
 
-            <a href="{{'/projects' | relative_url}} class="text-blue-200 hover:bg-blue-800 hover:text-white px-3 py-2 rounded-md font-medium no-underline">Projects</a>
+            <a href="{{'/projects' | relative_url}}" class="text-blue-200 hover:bg-blue-800 hover:text-white px-3 py-2 rounded-md font-medium no-underline">Projects</a>
           </div>
         </div>
       </div>

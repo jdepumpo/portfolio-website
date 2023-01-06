@@ -594,6 +594,11 @@ detective@^5.2.0, detective@^5.2.1:
     defined "^1.0.0"
     minimist "^1.2.6"
 
+devicons@^1.8.0:
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/devicons/-/devicons-1.8.0.tgz#df725a8b0ac2cce24c74b782c2f14f8b73832c2d"
+  integrity sha512-tRS3bNxy9mbDVK0g4/+t5PlwMjjOteuh5LAhjMgimAPUgiKB+wCUCf7+uugufZ1vC9AKMRn5Pljbi210qCbmkQ==
+
 didyoumean@^1.2.2:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/didyoumean/-/didyoumean-1.2.2.tgz#989346ffe9e839b4555ecf5666edea0d3e8ad037"
