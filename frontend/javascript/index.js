@@ -4,6 +4,7 @@ import "syntax-highlighting.css"
 import * as Turbo from "@hotwired/turbo"
 import "@fortawesome/fontawesome-free/css/all"
 import { Application } from "@hotwired/stimulus"
+import "tw-elements"
 
 
 // Uncomment the line below to add transition animations when Turbo navigates.
@@ -17,7 +18,7 @@ import "./turbo_transitions.js"
 // Import all JavaScript & CSS files from src/_components
 // To opt into `.global.css` & `.lit.css` nomenclature, change the `css` extension below to `global.css`.
 // Read https://edge.bridgetownrb.com/docs/components/lit#sidecar-css-files for documentation.
-import components from "bridgetownComponents/**/*.{js,jsx,js.rb,css}"
+import components from "bridgetownComponents/**/*.{js,jsx,js.rb,global.css}"
 
 console.info("Bridgetown is loaded!")
 
