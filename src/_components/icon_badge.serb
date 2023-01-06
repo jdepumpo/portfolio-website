@@ -1,0 +1,5 @@
+<icon-badge>
+  <a href="/" class="bg-slate-100 border border-slate-300 rounded shadow no-underline px-2 py-1 mr-2">
+    <i class="devicon-{{ @tag }}-plain colored text-sm mr-1"></i><span class="text-slate-600 text-sm font-mono">{{ @tag.upcase }}</span>
+  </a>
+</icon-badge>

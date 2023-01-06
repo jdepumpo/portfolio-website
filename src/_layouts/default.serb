@@ -3,6 +3,7 @@
   <head>
     {%@ "head", metadata: site.metadata, title: resource.data.title %}
     <meta name="turbo-cache-control" content="no-preview" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
   </head>
   <body class="bg-slate-100 {{ resource.data.layout }} {{ resource.data.page_class }}">
     <alert-banner></alert-banner>
