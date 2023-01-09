@@ -19,8 +19,8 @@ category:
       </div>
       <div class="lg:basis-1/4">
         <div class="flex flex-row lg:flex-col gap-2 lg:gap-4 place-content-center h-full">
-          <a href="/" class="pointer-events-auto text-center text-nowrap rounded-sm bg-slate-400 py-2 px-4 mr-2 text-[0.8125rem] no-underline font-semibold leading-5 text-white hover:bg-slate-500"><i class="devicon-github-plain text-white text-sm mr-2"></i><span>View on GitHub</span></a>
-          <a href="/" class="pointer-events-auto text-center text-nowraprounded-sm bg-blue-500 py-2 px-4 mr-2 text-[0.8125rem] no-underline font-semibold leading-5 text-white hover:bg-blue-900"><i class="fa-solid fa-arrow-right text-white text-sm mr-2"></i><span>Learn More</span></a>
+          <a href="{{ project.relative_url }}" class="pointer-events-auto text-center text-nowrap rounded-sm bg-slate-400 py-2 px-4 mr-2 text-[0.8125rem] no-underline font-semibold leading-5 text-white hover:bg-slate-500"><i class="devicon-github-plain text-white text-sm mr-2"></i><span>View on GitHub</span></a>
+          <a href="https://github.com/jdepumpo/{{ project.data.github_repo }}" class="pointer-events-auto text-center text-nowraprounded-sm bg-blue-500 py-2 px-4 mr-2 text-[0.8125rem] no-underline font-semibold leading-5 text-white hover:bg-blue-900"><i class="fa-solid fa-arrow-right text-white text-sm mr-2"></i><span>Learn More</span></a>
         </div>
       </div>
     </div>
