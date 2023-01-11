@@ -37,16 +37,14 @@
         </a>
       </div>
 
-      <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+      <div data-controller="menu-active" class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
         <div class="hidden sm:ml-6 sm:block">
           <div class="flex space-x-4">
+            <a href="{{'/' | relative_url}}" data-menu-active-target="desktop" class="px-4 py-2 rounded-md font-medium decoration-2 decoration-orange-400/60 underline-offset-2">Home</a>
 
-            <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-            <a href="{{'/' | relative_url}}" class="bg-blue-900 text-white px-3 py-2 rounded-md font-medium decoration-orange-400" aria-current="page">Home</a>
+            <a href="{{'/about' | relative_url}}" data-menu-active-target="desktop" class="px-4 py-2 rounded-md font-medium decoration-2 decoration-orange-400/60 underline-offset-2">About</a>
 
-            <a href="{{'/about' | relative_url}}" class="text-blue-200 hover:bg-blue-800 hover:text-white px-3 py-2 rounded-md font-medium no-underline">About</a>
-
-            <a href="{{'/projects' | relative_url}}" class="text-blue-200 hover:bg-blue-800 hover:text-white px-3 py-2 rounded-md font-medium no-underline">Projects</a>
+            <a href="{{'/resume' | relative_url}}" data-menu-active-target="desktop" class="px-4 py-2 rounded-md font-medium decoration-2 decoration-orange-400/60 underline-offset-2">Projects</a>
           </div>
         </div>
       </div>
@@ -57,11 +55,11 @@
   <div data-mobile-menu-target="menu" class="hidden" id="mobile-menu">
     <div class="space-y-1 px-2 pt-2 pb-3">
       <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-      <a href="{{'/' | relative_url}}" class="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium" aria-current="page">Home</a>
+      <a href="{{'/' | relative_url}}" data-menu-active-target="mobile" class="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium" aria-current="page">Home</a>
 
-      <a href="{{'/about' | relative_url}}" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">About</a>
+      <a href="{{'/about' | relative_url}}" data-menu-active-target="mobile" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">About</a>
 
-      <a href="{{'/projects' | relative_url}}" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Projects</a>
+      <a href="{{'/resume' | relative_url}}" data-menu-active-target="mobile" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Projects</a>
     </div>
   </div>
 </nav>

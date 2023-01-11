@@ -1,0 +1,27 @@
+Backend:
+  - ruby
+  - rails
+  - nodejs
+  - express
+  - docker
+  - mysql
+  - postgresql
+
+Frontend:
+  - html5
+  - javascript
+  - hotwire
+  - turbo
+  - css3
+  - sass
+  - tailwindcss
+  - gatsby
+  - jekyll
+  - wordpress
+  - bootstrap
+
+Tools of the Trade:
+  - git
+  - linux
+  - vscode
+  - heroku
