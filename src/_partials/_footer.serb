@@ -1,3 +1,3 @@
-<footer class="text-center"ss>
-  Contact me at <a href="mailto:{{ metadata.email }}">{{ metadata.email }}</a>
+<footer class="text-center bg-slate-300 py-4">
+  © {%= Date.today.year %} Joe F. DePumpo III | Contact me at <a href="mailto:{{ metadata.email }}">{{ metadata.email }}</a>
 </footer>

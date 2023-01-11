@@ -1,0 +1,86 @@
+---
+layout: page
+---
+
+{%= yield %}
+
+<h2>Projects</h2>
+{% collections.projects.resources.each do |project| %}
+  <div class="bg-white shadow rounded border border-slate-300 p-8">
+    <div class="flex flex-col gap-4 lg:flex-row lg:gap-16">
+      <div>
+        <a href="{{ project.relative_url }}" class="hover:text-blue-700"><h3>{{ project.data.title }}</h3></a>
+        <p>{{ project.data.description }}</p>
+        <div class="flex flex-wrap gap-2 gap-y-3 mt-4 lg:mt-8">
+          {% project.data.tags.each do |tag| %}
+            {%= render IconBadge.new(tag: tag) %}
+          {% end %}
+        </div>
+      </div>
+      <div class="shrink-0 flex flex-col gap-2 lg:gap-4 self-center">
+        <a href="{{ project.relative_url }}" class="pointer-events-auto transition ease-in-out duration-300 text-center rounded-sm bg-slate-400 py-2 px-4 no-underline font-semibold text-white hover:bg-slate-500"><i class="devicon-github-plain text-white text-sm mr-2"></i><span>View on GitHub</span></a>
+        <a href="https://github.com/jdepumpo/{{ project.data.github_repo }}" class="pointer-events-auto transition ease-in-out duration-300 text-center rounded-sm bg-blue-500 py-2 px-4 no-underline font-semibold text-white hover:bg-blue-900"><i class="fa-solid fa-arrow-right text-white text-sm mr-2"></i><span>Learn More</span></a>
+      </div>
+    </div>
+  </div>
+{% end %}
+
+<div class="flex flex-col md:flex-row gap-4 md:gap-8">
+  <div id="experience">
+    <h2>Experience</h2>
+    <div class="bg-white shadow rounded border border-slate-300 p-8">
+    {% site.data.experience.each do |experience_hash| %}
+    {% experience = experience_hash[1] %}
+      <div class="flex flex-col md:flex-row-reverse justify-items-start gap-4 lg:gap-8">
+        <div>
+          <img src="/images/{%= experience.image_path %}.svg" class="max-h-8 md:max-h-12" alt="{%= experience.company %} logo">
+        </div>
+        <div class="grow">
+          <h3>{%= experience.company %}</h3>
+          <p>{%= experience.location %}</p>
+          <div class="mt-4">
+          {% experience.position.each do |position| %}
+            <ul>
+              <li><strong>{%= position.start_year %}–{%= position.end_year %}</strong>, {%= position.title %}</li>
+            </ul>
+          {% end %}
+          </div>
+        </div>
+      </div>
+      <p class="mt-4">{%= experience.description %}</p>
+        <hr class="my-8" />
+    {% end %}
+    </div>
+  </div>
+  <div class="shrink-0 basis-1/3">
+    <div id="skills">
+      <h2>Skills</h2>
+      {% site.data.skills.each do |skills| %}
+      <div class="bg-white shadow rounded border border-slate-300 p-8 my-4">
+        <h3>{%= skills[0].capitalize %}</h3>
+        <div class="flex flex-wrap gap-2 gap-y-3 my-2 lg:my-4">
+          {% skills[1].each do |skill| %}
+            {%= render IconBadge.new(tag: skill) %}
+          {% end %}
+        </div>
+      </div>
+      {% end %}
+    </div>
+    <div id="education">
+      <h2>Education</h2>
+      <div class="bg-white shadow rounded border border-slate-300 p-8">
+        <div class="flex flex-col md:flex-row gap-4 lg:gap-8 items-center">
+          <div>
+            <img src="/images/gwu.svg" class="max-h-16" alt="The George Washington University wordmark">
+          </div>
+          <div>
+          <h3>The George Washington University</h3>
+          <p>Washington, DC</p>
+          <p>2015–2019</p>
+          <p>B.A., Political Science</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
