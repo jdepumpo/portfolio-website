@@ -5,4 +5,9 @@ position:
     end_year: 2019
     title: Marketing Intern
 image_path: clements
-description: Worked with a variety of stakeholders to improve engagement and implement inbound marketing techniques for ongoing campaigns. Designed and branded client-facing collateral and content including social media, email campaigns, proposals, pamphlets, and web content. • Automated a direct mail campaign to more than 700 embassies using Python to collect and format addresses according to the delivery country’s postal standards. The campaign was completed weeks faster and the undeliverable rate was reduced to an unprecedented 0.6%. • Executed Clement’s flagship global scholarship contest, including building out web pages and other digital and print materials. Developed a targeted, worldwide social media campaign, including a two month social media calendar and associated content creation.
+description: >
+  Worked with a variety of stakeholders to improve engagement and implement inbound marketing techniques for ongoing campaigns. Designed and branded client-facing collateral and content including social media, email campaigns, proposals, pamphlets, and web content.
+  <ul>
+    <li>Automated a direct mail campaign to more than 700 embassies using Python to collect and format addresses according to the delivery country’s postal standards. The campaign was completed weeks faster and the undeliverable rate was reduced to an unprecedented 0.6%.</li>
+    <li>Executed Clement’s flagship global scholarship contest, including building out web pages and other digital and print materials. Developed a targeted, worldwide social media campaign, including a two month social media calendar and associated content creation.</li>
+  </ul>

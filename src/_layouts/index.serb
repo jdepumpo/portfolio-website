@@ -16,5 +16,14 @@ layout: no_contain
 </div>
 
 <div class="bg-white xl:mx-auto max-w-7xl p-6 mx-4 my-8 sm:px-6 lg:px-8">
-  {{ content }}
+
+  <div class="hidden xl:flex gap-4 lg:gap-8 mb-10 justify-between">
+    {%= render BigButton.new(text: "About Me", icon: "plane-train-auto.png", link: "/about", alt: "A painnting of a plane, train, and automobile.") %}
+    {%= render BigButton.new(text: "My Resume", icon: "field.png", link: "/resume", alt: "A painting of a CRT computer monitor in a field.") %}
+    {%= render BigButton.new(text: "My Projects", icon: "world-submarine-cables.png", link: "/resume", alt: "A painting of the world's submarine internet cables.") %}
+  </div>
+
+  <article class="prose prose-zinc max-w-none lg:prose-xl">
+    {{ content }}
+  </article>
 </div>
