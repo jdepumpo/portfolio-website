@@ -1,0 +1,8 @@
+<a href="{{ @link }}" class="no-underline transition ease-in-out hover:-translate-y-0.5 duration-300">
+  <big-button class="bg-blue-200 rounded shadow hover:bg-blue-300 hover:shadow-lg transition ease-in-out duration-300 flex items-center">
+    <!--<i class="text-orange-600 text-3xl fa fa-calendar"></i>-->
+    <img src="images/{{ @icon }}" class="rounded-l w-24" alt="{{ @alt }}">
+    <span class="text-blue-700 text-3xl font-semibold px-8">{{ @text }}</span>
+    <i class="text-orange-600 text-3xl fa fa-chevron-right pr-4"></i>
+  </big-button>
+</a>
