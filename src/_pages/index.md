@@ -4,14 +4,10 @@ category:
   - top_nav
 ---
 
-## Client-Side
+#### 👋 I'm Joe, a full-stack developer with a focus on Ruby on Rails, HTML, CSS, Javascript, Tailwind, and PostgreSQL.
 
-I build client-side applications that strike a balance between the tried and true methods of HTML and CSS and bringing them to life with enhancements like Hotwire, TailwindCSS, and others.
+Recently, that has led me to:
+- Developing a **Rails 7** application that takes advantage of **Hotwire Turbo and Stimulus** to make it easier for you to organize your friends, family, and neighbors to house-sit while you are away from home for an extended period.
+- Developing websites with the **JAM stack and Gatsby framework**, including for a political campaign for the California State Assembly.
 
-## Backend
-
-I build scalable and maintainable server applications with a focus on Ruby on Rails 7.
-
-## Previosuly
-
-In addition to full applications, I have experience building out UI component libraries.
+My resume and more details about my skills and recent projects are [available here](/resume).
