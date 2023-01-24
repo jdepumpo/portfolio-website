@@ -1,3 +1,11 @@
-<footer class="text-center bg-slate-300 py-4">
-  © {%= Date.today.year %} Joe F. DePumpo Ⅲ | Contact me at <a href="mailto:{{ metadata.email }}">{{ metadata.email }}</a>
+<footer class="text-center bg-slate-300">
+  <div class="flex flex-col gap-3 place-center lg:flex-row lg:justify-between xl:mx-auto max-w-7xl mx-4 my-8 p-4 md:p-6 lg:px-8">
+    <div>
+      © {%= Date.today.year %} Joe F. DePumpo Ⅲ | Contact me at <a href="mailto:{{ metadata.email }}">{{ metadata.email }}</a>
+    </div>
+    <div class="space-x-2">
+      <a href="https://go.jfd.is/linkedin" target="_blank" alt="Linkedin Profile"><i class="fa-brands fa-linkedin text-xl"></i></a>
+      <a href="https://go.jfd.is/github" target="_blank" alt="Github Profile"><i class="fa-brands fa-github text-xl text-slate-800"></i></a>
+    </div>
+  </div>
 </footer>
