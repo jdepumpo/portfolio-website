@@ -12,7 +12,7 @@ layout: default
     <div class="flex flex-col gap-4 lg:flex-row lg:gap-16">
       <div>
         <a href="{{ project.relative_url }}" class="hover:text-blue-700"><h3>{{ project.data.title }}</h3></a>
-        <p>{{ project.data.description }}</p>
+        <p>{%= project.data.description %}</p>
         <div class="flex flex-wrap gap-2 gap-y-3 mt-4 lg:mt-8">
           {% project.data.tags.each do |tag| %}
             {%= render IconBadge.new(tag: tag) %}
@@ -20,8 +20,8 @@ layout: default
         </div>
       </div>
       <div class="shrink-0 flex flex-col gap-2 lg:gap-4 self-center">
-        <a href="{{ project.relative_url }}" class="pointer-events-auto transition ease-in-out duration-300 text-center rounded-sm bg-slate-400 py-2 px-4 no-underline font-semibold text-white hover:bg-slate-500"><i class="devicon-github-plain text-white text-sm mr-2"></i><span>View on GitHub</span></a>
-        <a href="https://github.com/jdepumpo/{{ project.data.github_repo }}" class="pointer-events-auto transition ease-in-out duration-300 text-center rounded-sm bg-blue-500 py-2 px-4 no-underline font-semibold text-white hover:bg-blue-900"><i class="fa-solid fa-arrow-right text-white text-sm mr-2"></i><span>Learn More</span></a>
+        <a href="https://github.com/jdepumpo/{{ project.data.github_repo }}" class="pointer-events-auto transition ease-in-out duration-300 text-center rounded-sm bg-slate-400 py-2 px-4 no-underline font-semibold text-white hover:bg-slate-500"><i class="devicon-github-plain text-white text-sm mr-2"></i><span>View on GitHub</span></a>
+        <a href="{{ project.relative_url }}" class="pointer-events-auto transition ease-in-out duration-300 text-center rounded-sm bg-blue-500 py-2 px-4 no-underline font-semibold text-white hover:bg-blue-900"><i class="fa-solid fa-arrow-right text-white text-sm mr-2"></i><span>Learn More</span></a>
       </div>
     </div>
   </div>
@@ -50,7 +50,7 @@ layout: default
         </div>
       </div>
       <div class="prose wax-w-none mt-4">{%= experience.description %}</div>
-        <hr class="my-8" />
+        <hr class="my-8 border-slate-200 last:hidden" />
     {% end %}
     </div>
   </div>

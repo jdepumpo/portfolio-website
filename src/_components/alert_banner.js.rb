@@ -7,9 +7,9 @@ class AlertBanner < HTMLElement
           <span>I am currently <strong>#OpenToWork</strong> and would be thrilled to discuss your opportunity.</span>
         </div>
         <div class='flex flex-row gap-2'>
-          <a href='https://cloud.depumpo.com/index.php/apps/appointments/pub/JVrV01d8ZaJ8pYPz/form' target='_blank' class='transition ease-in-out duration-300 inline-flex items-baseline pointer-events-auto rounded-sm bg-blue-500 py-2 px-4 text-[0.8125rem] no-underline font-medium leading-5 text-white hover:bg-blue-900'><i class='fa-solid fa-calendar mr-2'></i>Connect</a>
+          <a href='https://go.jfd.is/14s6NM' target='_blank' class='transition ease-in-out duration-300 inline-flex items-baseline pointer-events-auto rounded-sm bg-blue-500 py-2 px-4 text-[0.8125rem] no-underline font-medium leading-5 text-white hover:bg-blue-900'><i class='fa-solid fa-calendar mr-2'></i>Connect</a>
           <a href='/resume' class='transition ease-in-out duration-300 inline-flex items-baseline pointer-events-auto rounded-sm bg-blue-500 py-2 px-4 text-[0.8125rem] no-underline font-medium leading-5 text-white hover:bg-blue-900'><i class='fa-solid fa-file mr-2'></i>Resume</a>
-          <a href='https://www.linkedin.com/in/jdepumpo/' target='_blank' class='transition ease-in-out duration-300 inline-flex items-baseline pointer-events-auto rounded-sm bg-blue-500 py-2 px-4 text-[0.8125rem] no-underline font-medium leading-5 text-white hover:bg-blue-900'><i class='fa-brands fa-linkedin mr-2'></i>LinkedIn</a>
+          <a href='https://go.jfd.is/linkedin' target='_blank' class='transition ease-in-out duration-300 inline-flex items-baseline pointer-events-auto rounded-sm bg-blue-500 py-2 px-4 text-[0.8125rem] no-underline font-medium leading-5 text-white hover:bg-blue-900'><i class='fa-brands fa-linkedin mr-2'></i>LinkedIn</a>
         </div>
       </div>
     </div>

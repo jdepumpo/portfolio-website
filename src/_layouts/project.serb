@@ -2,6 +2,7 @@
 layout: default
 ---
 
-<h1>{{ resource.data.title }}</h1>
-
-{%= yield %}
+<article class="prose prose-zinc max-w-none lg:prose-xl">
+  <h1>{{ resource.data.title }}</h1>
+  {%= yield %}
+</article>
