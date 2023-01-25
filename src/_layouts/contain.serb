@@ -1,0 +1,7 @@
+---
+layout: default
+---
+
+<main class="xl:mx-auto max-w-7xl mx-4 my-8 p-4 md:p-6 lg:px-8">
+  {%= yield %}
+</main>
