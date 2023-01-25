@@ -35,7 +35,7 @@
     Link = [
       "<CSS_PATH>; rel=preload; as=style",
       "<JS_PATH>; rel=preload; as=script",
-      "<https://res.cloudinary.com>; rel=preconnect"
+      "<https://NETLIFY_IMAGES_CDN_DOMAIN>; rel=preconnect"
     ]
 
 [[headers]]
