@@ -16,7 +16,7 @@ layout: no_contain
 </div>
 
 <div class="bg-white xl:mx-auto max-w-7xl p-6 mx-4 my-8 sm:px-6 lg:px-8">
-  <article class="prose prose-zinc max-w-none lg:prose-xl">
+  <article class="prose prose-zinc max-w-none lg:prose-xl prose-a:text-blue-500">
     {{ content }}
   </article>
   <div class="hidden xl:flex gap-4 lg:gap-8 my-8 justify-evenly">
