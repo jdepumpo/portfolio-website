@@ -42,7 +42,7 @@
           <div class="flex space-x-4">
             <a href="{{'/' | relative_url}}" data-menu-active-target="desktop" class="px-4 py-2 rounded-md font-medium decoration-2 decoration-orange-400/60 underline-offset-2">Home</a>
 
-            <a href="{{'/resume' | relative_url}}" data-menu-active-target="desktop" class="px-4 py-2 rounded-md font-medium decoration-2 decoration-orange-400/60 underline-offset-2">Resume</a>
+            <a href="{{'/resume/' | relative_url}}" data-menu-active-target="desktop" class="px-4 py-2 rounded-md font-medium decoration-2 decoration-orange-400/60 underline-offset-2">Resume</a>
           </div>
         </div>
       </div>
@@ -55,7 +55,7 @@
       <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
       <a href="{{'/' | relative_url}}" data-menu-active-target="mobile" class="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium" aria-current="page">Home</a>
 
-      <a href="{{'/resume' | relative_url}}" data-menu-active-target="mobile" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Resume</a>
+      <a href="{{'/resume/' | relative_url}}" data-menu-active-target="mobile" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Resume</a>
     </div>
   </div>
 </nav>
