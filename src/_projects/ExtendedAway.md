@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: page
 title:  ExtendedAway
 description: Lead a team of three developers building a <strong>Rails 7 application</strong> that takes advantage of <strong>Hotwire Turbo and Stimulus</strong> to make it easier to organize your friends, family, and neighbors to house-sit while you are away from home for an extended period.
 tags: rails ruby javascript html5 sass postgresql git

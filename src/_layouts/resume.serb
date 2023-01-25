@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: contain
 ---
 <article class="prose prose-slate max-w-none lg:prose-xl">
   <h1>{{ resource.data.title }}</h1>
