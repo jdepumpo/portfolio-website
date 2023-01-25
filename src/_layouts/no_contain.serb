@@ -2,6 +2,6 @@
 layout: default
 ---
 
-<main data-turbo-transition="false">
+<main>
   {%= yield %}
 </main>
