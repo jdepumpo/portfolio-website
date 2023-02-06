@@ -5,10 +5,9 @@ position:
   - start_year: 2019
     end_year: present
     title: Freelance Web Developer
-image_path: jfd-no-shadow
+image_path: jfd-no-shadow.svg
 description: >
   <ul>
-    <li>From corporations to political campaigns, I communicated effectively with a variety of stakeholders to develop functional, well designed websites, UI components, and content that was engaging and integrated easily with their infrastructure.</li>
-    <li>Developed websites with the <strong>JAM stack and Gatsby framework</strong>, including for a political campaign for the California State Assembly.</li>
+    <li>Developed functional, high-quality websites with the <strong>JAMstack and GatsbyJS</strong> framework for companies and a political campaign for a California State Assembly candidate.</li>
     <li>Developed a <strong>UI component library and page templates</strong> and integrating them into the client’s HubSpot CMS using <strong>HTML, CSS, Javascript, and HubL</strong> markup syntax. This was so successful that the client fast-tracked their roll out of Hubspot.</li>
   </ul>
