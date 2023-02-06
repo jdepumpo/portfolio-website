@@ -1,4 +1,4 @@
-<h1 align="center">[joe.depumpo.com](https://joe.depumpo.com/)</h1>
+<h1 align="center"><a href="https://joe.depumpo.com/" target="_blank">joe.depumpo.com</a></h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
 </p>
