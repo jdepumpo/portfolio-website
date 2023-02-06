@@ -4,9 +4,8 @@ position:
   - start_year: 2018
     end_year: 2019
     title: Marketing Intern
-image_path: clements
+image_path: clements.svg
 description: >
   <ul>
-    <li>Worked with a variety of stakeholders to improve engagement and implement inbound marketing techniques for ongoing campaigns. Designed and branded client-facing collateral and content including social media, email campaigns, proposals, pamphlets, and web content.</li>
-    <li>Automated a direct mail campaign to more than 700 embassies using Python to collect and format addresses according to the delivery country’s postal standards. The campaign was <strong>completed weeks faster</strong> and the <strong>return rate was reduced to an unprecedented 0.6%.</strong></li>
+    <li>Used <strong>Python</strong> to automate a global direct mail campaign by scraping 700 embassy addresses and formatting  to the delivery country’s postal standards. Reduced return rate to 0.6% and completed weeks faster.</li>
   </ul>

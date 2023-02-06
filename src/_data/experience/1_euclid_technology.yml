@@ -7,10 +7,9 @@ position:
   - start_year: 2019
     end_year: 2021
     title: Marketing Associate
-image_path: euclid
+image_path: euclid.svg
 description: >
-    <ul>
+  <ul>
     <li>Responsible for the entire range of marketing efforts for both Euclid Technology and EZClaim’s SaaS products (sister-companies).</li>
-    <li>Implemented major website changes that increased conversions, including landing pages, templates, and UI components.</li>
-    <li>Implemented HubSpot and automated marketing and sales processes.</li>
-    </ul>
+    <li>Implemented Hubspot CMS and built a suite of custom <strong>landing pages, templates, and UI components</strong> that increased conversions.</li>
+  </ul>
