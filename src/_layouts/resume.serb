@@ -35,7 +35,7 @@ layout: contain
     {% experience = experience_hash[1] %}
       <div class="flex flex-col md:flex-row-reverse justify-items-start gap-4 lg:gap-8">
         <div>
-          <img src="/images/{%= experience.image_path %}.svg" class="max-h-8 md:max-h-12" alt="{%= experience.company %} logo">
+          <img src="/images/{%= experience.image_path %}" class="max-h-8 md:max-h-12" alt="{%= experience.company %} logo">
         </div>
         <div class="grow">
           <h3>{%= experience.company %}</h3>
