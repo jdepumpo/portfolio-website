@@ -13,7 +13,10 @@ github_repo: ExtendedAway
 
 #### The Trip page
 Show the details of your upcoming trip, a list of tasks by day, and the homesitter that is assigned to those tasks.
-![Screenshot of the main trip page of ExtendedAway, which shows upcoming tasks and which homesitters will be performing them.](/images/ExtendedAway/TripShow.png)
+<video autoplay muted loop alt="Screen recording of the main trip page of ExtendedAway, which shows upcoming tasks and which homesitters will be performing them.">
+  <source src="https://res.cloudinary.com/dxfg68ykv/video/upload/v1677771861/ExtendedAwayOverview_xs2jat.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
 
 ----
 #### Location and access information
