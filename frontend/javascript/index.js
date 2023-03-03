@@ -12,7 +12,7 @@ import "tw-elements"
 // to your HTML head if you turn on transitions. Use data-turbo-transition="false"
 // on your <main> element for pages where you don't want any transition animation.
 //
-import "./turbo_transitions.js"
+//import "./turbo_transitions.js"
 //import "./persist_alert_banner.js"
 
 // Import all JavaScript & CSS files from src/_components
