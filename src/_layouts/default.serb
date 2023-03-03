@@ -3,7 +3,7 @@
   <head>
     {%@ "head", metadata: site.metadata, title: resource.data.title %}
     <meta name="turbo-cache-control" content="no-preview" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="stylesheet" href="/styles/fonts/devicon.min.css">
     <meta property="og:image" content="https://cloud.depumpo.com/s/fYjKAgNxbiQLAcB/preview" />
     <meta property="og:image:secure_url" content="https://cloud.depumpo.com/s/fYjKAgNxbiQLAcB/preview" />
     <meta property="og:image:width" content="200" />
