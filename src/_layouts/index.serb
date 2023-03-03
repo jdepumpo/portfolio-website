@@ -10,7 +10,7 @@ layout: no_contain
       <h1 class="drop-shadow-md text-slate-100 text-center lg:text-left text-2xl lg:text-5xl text-shadow-lg">Bringing ideas to life on the web with <span class="underline decoration-2 lg:decoration-4 lg:underline-offset-8 decoration-blue-300">precise communication</span> and <span class="underline decoration-2 lg:decoration-4 lg:underline-offset-8 decoration-blue-300">efficient code</span>.</h1>
     </div>
     <div class="min-w-fit z-40">
-      <img src="/images/avatar-200-200.webp" alt="Joe F. DePumpo III's profile photo" class="rounded-lg shadow-lg border border-slate-200 border-2 w-48 h-48">
+      <img src="/images/avatar.webp" alt="Joe F. DePumpo III's profile photo" class="rounded-lg shadow-lg border border-slate-200 border-2 w-48 h-48">
     </div>
   </div>
 </div>
