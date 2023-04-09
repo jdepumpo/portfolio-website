@@ -2,6 +2,6 @@
 layout: default
 ---
 
-<main>
+<main class="grow">
   {%= yield %}
 </main>
