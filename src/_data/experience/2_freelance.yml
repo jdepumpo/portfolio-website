@@ -1,13 +1,13 @@
 ---
-company: Self-employed
+company: Self-employed (independent contractor)
 location: Washington, DC
 position:
   - start_year: 2019
-    end_year: present
-    title: Freelance Web Developer
+    end_year: 2020
+    title: Web Developer
 image_path: jfd-no-shadow.svg
 description: >
   <ul>
     <li>Developed functional, high-quality websites with the <strong>JAMstack and GatsbyJS</strong> framework for companies and a political campaign for a California State Assembly candidate.</li>
-    <li>Developed a <strong>UI component library and page templates</strong> and integrating them into the client’s HubSpot CMS using <strong>HTML, CSS, Javascript, and HubL</strong> markup syntax. This was so successful that the client fast-tracked their roll out of Hubspot.</li>
+    <li>Developed a <strong>UI component library and page templates</strong> and integrated them into the client’s HubSpot CMS using <strong>HTML, CSS, Javascript, and HubL</strong> markup syntax. This was so successful that the client fast-tracked their roll out of Hubspot.</li>
   </ul>
