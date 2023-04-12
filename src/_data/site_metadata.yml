@@ -5,7 +5,7 @@
 # in the templates via {{ site.metadata.myvariable }}.
 
 title: Joe F. DePumpo Ⅲ
-tagline: Fullstack Web Developer
+tagline: Full-Stack Web Developer
 email: me@jfd.is
 description: >-
   This is Joe F. DePumpo Ⅲ's portfolio website and home on the internet.
