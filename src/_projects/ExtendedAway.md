@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  ExtendedAway
-description: <ul><li>Lead a team of developers building an application to organize house-sitting tasks while you are away for an extended period.</li><li>Utilized <em>Ruby on Rails 7 and PostgreSQL</em> for the back-end and <em>HTML/CSS, JavaScript, Hotwire Turbo and Stimulus, and Bootstrap</em> for the front-end. Deployed with Heroku.</li></ul>
+description: Lead a team of developers building an application to organize house-sitting tasks while you are away for an extended period. Utilized <strong>Ruby on Rails 7 and PostgreSQL</strong> for the back-end and <strong>HTML/CSS, JavaScript, Hotwire Turbo and Stimulus, and Bootstrap</strong> for the front-end. Deployed with Heroku.
 tags: rails ruby javascript html5 sass postgresql git
 github_repo: ExtendedAway
 ---
