@@ -4,7 +4,7 @@ category:
   - top_nav
 ---
 
-#### 👋 I'm Joe, a full-stack developer with a focus on Ruby on Rails, HTML, CSS, Javascript, Tailwind, and PostgreSQL.
+#### 👋 I'm Joe, a Full-Stack Web Developer who builds websites and applications with a modern tech stack.
 
 Recently, this has led me to:
 - Develop a [**Rails 7** application](/projects/extendedaway) with **PostgreSQL, Bootstrap, and Hotwire Turbo and Stimulus** that makes it easier to organize house sitters while you are away from home.
