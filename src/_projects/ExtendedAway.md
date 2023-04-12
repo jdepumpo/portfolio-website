@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  ExtendedAway
-description: Lead a team of three developers building a <strong>Rails 7 application</strong> that takes advantage of <strong>Hotwire Turbo and Stimulus</strong> to make it easier to organize your friends, family, and neighbors to house-sit while you are away from home for an extended period.
+description: <ul><li>Lead a team of developers building an application to organize house-sitting tasks while you are away for an extended period.</li><li>Utilized <em>Ruby on Rails 7 and PostgreSQL</em> for the back-end and <em>HTML/CSS, JavaScript, Hotwire Turbo and Stimulus, and Bootstrap</em> for the front-end. Deployed with Heroku.</li></ul>
 tags: rails ruby javascript html5 sass postgresql git
 github_repo: ExtendedAway
 ---
