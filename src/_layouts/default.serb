@@ -9,7 +9,6 @@
     <link rel="icon" type="image/jpg" href="/images/avatar-200-200.jpg">
   </head>
   <body class="bg-slate-100 h-screen md:flex md:flex-col {{ resource.data.layout }} {{ resource.data.page_class }}">
-    <alert-banner></alert-banner>
     {%@ Shared::Navbar metadata: site.metadata, resource: resource %}
 
       {%= yield %}

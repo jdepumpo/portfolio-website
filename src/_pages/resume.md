@@ -1,6 +1,6 @@
 ---
 layout: resume
-title: Resume
+title: Experience
 ---
 
 <div class="flex gap-x-2">

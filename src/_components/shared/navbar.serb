@@ -30,8 +30,8 @@
       <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
         <a href="{{'/' | relative_url}}" class="no-underline">
           <div class="flex flex-shrink-0 flex-col items-center">
-            <img class="block h-8 w-auto lg:hidden" src="/images/joe-f-depumpo-iii.svg" alt="Joe F. DePumpo III's signature">
-            <img class="hidden h-8 w-auto lg:block" src="/images/joe-f-depumpo-iii.svg" alt="Joe F. DePumpo III's signature">
+            <img class="block h-8 w-auto lg:hidden" src="/images/jfd.svg" alt="Joe DePumpo">
+            <img class="hidden h-8 w-auto lg:block" src="/images/jfd.svg" alt="Joe DePumpo">
             <em class="text-slate-200">Full-Stack Web Developer</em>
           </div>
         </a>
@@ -42,7 +42,7 @@
           <div class="flex space-x-4">
             <a href="{{'/' | relative_url}}" data-menu-active-target="desktop" class="px-4 py-2 rounded-md font-medium decoration-2 decoration-orange-400/60 underline-offset-2">Home</a>
 
-            <a href="{{'/resume/' | relative_url}}" data-menu-active-target="desktop" class="px-4 py-2 rounded-md font-medium decoration-2 decoration-orange-400/60 underline-offset-2">Resume</a>
+            <a href="{{'/resume/' | relative_url}}" data-menu-active-target="desktop" class="px-4 py-2 rounded-md font-medium decoration-2 decoration-orange-400/60 underline-offset-2">Experience</a>
           </div>
         </div>
       </div>
@@ -55,7 +55,7 @@
       <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
       <a href="{{'/' | relative_url}}" data-menu-active-target="mobile" class="block px-3 py-2 rounded-md text-base font-medium">Home</a>
 
-      <a href="{{'/resume/' | relative_url}}" data-menu-active-target="mobile" class="block px-3 py-2 rounded-md text-base font-medium">Resume</a>
+      <a href="{{'/resume/' | relative_url}}" data-menu-active-target="mobile" class="block px-3 py-2 rounded-md text-base font-medium">Experience</a>
     </div>
   </div>
 </nav>
