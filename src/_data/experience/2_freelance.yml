@@ -1,5 +1,5 @@
 ---
-company: Self-employed (independent contractor)
+company: Self-employed (independent consultant)
 location: Washington, DC
 position:
   - start_year: 2019
@@ -8,6 +8,7 @@ position:
 image_path: jfd-no-shadow.svg
 description: >
   <ul>
-    <li>Developed functional, high-quality websites with the <strong>JAMstack and GatsbyJS</strong> framework for companies and a political campaign for a California State Assembly candidate.</li>
-    <li>Developed a <strong>UI component library and page templates</strong> and integrated them into the client’s HubSpot CMS using <strong>HTML, CSS, Javascript, and HubL</strong> markup syntax. This was so successful that the client fast-tracked their roll out of Hubspot.</li>
+    <li>Identified technical problems across a variety of companies and organizations and built creative and practical solutions. Managed project scope, deadlines, and cost to meet client timeline and budget.</li>
+    <li>Developed functional, high-quality websites, applications, and components with HTML, CSS, JavaScript, and a variety of CMSs and frameworks including Gatsby, WordPress, and Hubspot CMS.</li>
+    <li>One client deployed my web components to prominent partners like H&R Block and Cathay Pacific.</li>
   </ul>
