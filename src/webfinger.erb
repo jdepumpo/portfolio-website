@@ -1,0 +1,30 @@
+---
+sitemap: false
+permalink: ".well-known/webfinger"
+---
+
+{
+  "subject":"acct:jdepumpo@ruby.social",
+  "aliases":
+  [
+      "https://ruby.social/@jdepumpo",
+      "https://ruby.social/users/jdepumpo"
+  ],
+  "links":
+  [
+      {
+          "rel":"http://webfinger.net/rel/profile-page",
+          "type":"text/html",
+          "href":"https://ruby.social/@jdepumpo"
+      },
+      {
+          "rel":"self",
+          "type":"application/activity+json",
+          "href":"https://ruby.social/users/jdepumpo"
+      },
+      {
+          "rel":"http://ostatus.github.io/schema/1.0/subscribe",
+          "template":"https://ruby.social/authorize_interaction?uri={uri}"
+      }
+  ]
+}
