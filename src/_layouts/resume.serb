@@ -49,7 +49,7 @@ layout: contain
           </div>
         </div>
       </div>
-      <div class="prose wax-w-none mt-4">{%= experience.description %}</div>
+      <div class="prose prose-zinc prose-a:text-blue-500 wax-w-none mt-4">{%= experience.description %}</div>
         <hr class="my-8 border-slate-200 last:hidden" />
     {% end %}
     </div>

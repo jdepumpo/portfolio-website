@@ -1,0 +1,13 @@
+#platform-container::before {
+  content: url('/images/arrow.svg');
+  transform: scaleY(-1) translateY(50%);
+  rotate: -30deg;
+  opacity: .3;
+}
+
+#platform-container::after {
+  content: url('/images/arrow.svg');
+  transform: scaleY(-1) scaleX(-1) translateY(50%);
+  rotate: 30deg;
+  opacity: .3;
+}

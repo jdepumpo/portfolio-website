@@ -1,16 +1,20 @@
 company: Euclid Technology
 location: Bethesda, MD
 position:
-  - start_year: 2021
+  - start_year: 2022
     end_year: 2022
     title: Marketing Manager
-  - start_year: 2019
-    end_year: 2021
+  - start_year: 2020
+    end_year: 2022
     title: Marketing Associate
 image_path: euclid.svg
 description: >
   <ul>
-    <li>Developed and maintained WordPress and Hubspot websites. Built custom themes and components for better navigation, accessibility, and speed.</li>
-    <li>Automated processes to facilitate sales efficiency and deliver custom reporting and dashboards by querying various databases and platforms.</li>
-    <li>Wrote technical documentation and produced training videos.</li>
+    <li>Implemented HubSpot CRM including data migration, automation, analytics, and integrations.</li>
+    <li>Developed and maintained WordPress and HubSpot websites. Built landing pages and web components that were optimized for conversions.</li>
+    <li>Delivered custom reporting and dashboards sourced from HubSpot CRM, SQL databases, Google Analytics, and other platforms.</li>
+    <li>Automated and A/B tested marketing and sales processes including email and SMS sequences, deal flow, and onboarding.</li>
+    <li>Implemented HubSpot tag management and launched PPC campaigns across platforms.</li>
+    <li>Led digital marketing for Euclid’s SaaS product, ClearVantage, to associations around the US.</li>
+    <li>Increased average webinar attendance 38% and produced training videos.</li>
   </ul>

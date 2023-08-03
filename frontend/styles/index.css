@@ -2,6 +2,7 @@
 
 @import "jit-refresh.css"; /* triggers frontend rebuilds */
 @import "devicon.min.css";
+@import "platform-container.css";
 
 /* Set up Tailwind imports */
 @tailwind base;
@@ -10,10 +11,10 @@
 
 @layer base {
   h1 {
-    @apply text-3xl my-6 text-slate-700;
+    @apply text-3xl my-6 text-blue-900;
   }
   h2 {
-    @apply text-2xl mb-4 mt-8 text-blue-700;
+    @apply text-2xl mb-4 mt-8 text-blue-900;
   }
   h3 {
     @apply text-lg;
