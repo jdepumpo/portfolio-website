@@ -7,5 +7,5 @@ position:
 image_path: clements.svg
 description: >
   <ul>
-    <li>Used Python to automate a global direct mail campaign by scraping 700 embassy addresses and formatting  to the delivery country’s postal specification. Reduced return rate to 0.6% and completed weeks faster.</li>
+    <li>Used Python to automate a global direct mail campaign by scraping 700 embassy addresses and formatting to the delivery country’s postal specification. Reduced return rate to 0.6% and completed weeks faster.</li>
   </ul>

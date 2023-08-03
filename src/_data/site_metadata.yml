@@ -5,7 +5,7 @@
 # in the templates via {{ site.metadata.myvariable }}.
 
 title: Joe DePumpo
-tagline: Full-Stack Web Developer
+tagline: MarTech Consultant
 email: joe@depumpo.com
 description: >-
-  This is Joe DePumpo's portfolio website and home on the internet.
+  Joe DePumpo's portfolio website and home on the internet.
