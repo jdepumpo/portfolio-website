@@ -3,7 +3,7 @@ layout: index
 category:
   - top_nav
 ---
-<div id="platform-container" class="flex flex-row fill-slate-200">
+<div class="flex flex-row fill-slate-200">
   <div class="w-full py-4 grid grid-flow-row sm:grid-flow-col gap-2">
     {%= render PlatformCard.new(text: "Web & CMS Development", icon: "fa-brands fa-drupal", color: "blue-500") %}
     {%= render PlatformCard.new(text: "CRM Optimization", icon: "fa-brands fa-hubspot", color: "orange-500") %}
