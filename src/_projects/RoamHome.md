@@ -4,6 +4,7 @@ title:  RoamHome
 description: Led a team of developers building an application to organize house-sitting tasks while you are away for an extended period. Utilized <strong>Ruby on Rails 7 and PostgreSQL</strong> for the back-end and <strong>HTML/CSS, JavaScript, Hotwire Turbo and Stimulus, and Bootstrap</strong> for the front-end. Deployed with Fly.io.
 tags: rails ruby javascript html5 sass postgresql git
 github_repo: RoamHome
+sitemap: true
 ---
 
 #### A <strong>Rails 7 application</strong> that takes advantage of <strong>Hotwire Turbo and Stimulus</strong> to make it easier to organize your friends, family, and neighbors to house-sit while you are away from home for an extended period.
