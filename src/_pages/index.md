@@ -1,5 +1,6 @@
 ---
 layout: index
+sitemap: true
 category:
   - top_nav
 ---

@@ -1,5 +1,6 @@
 ---
 layout: resume
+sitemap: true
 title: Resume
 ---
 
