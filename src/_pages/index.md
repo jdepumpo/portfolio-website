@@ -15,7 +15,7 @@ category:
 
 ### Passionate about using technology to deliver personalized, data-driven, and context-aware web experiences to customers.
 
-As a technologist at heart I believe that tools should empower us, not hold us back. My mission is to untagle the complexity and expand the capability of your marketing technology stack. I'll help the rest of your team get back to doing what they do best by building better integrations, collating the right data, and embracing automation.
+As a technologist at heart I believe that tools should empower us, not hold us back. My mission is to untagle the complexity and expand the capability of your website and marketing technology stack. I'll help the rest of your team get back to doing what they do best by building better integrations, collating the right data, and embracing automation.
 
 Whether it is blazing fast landing pages that are optimized for conversions, wrangling analytics data, or replacing your cumbersome fillable PDF with a responsive form, I am here to help. I have the consulting experience to see the full picture, and the technical expertise to build quickly.
 
