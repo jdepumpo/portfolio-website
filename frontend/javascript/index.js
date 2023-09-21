@@ -5,7 +5,7 @@ import * as Turbo from "@hotwired/turbo"
 import "@fortawesome/fontawesome-free/css/all"
 import { Application } from "@hotwired/stimulus"
 import "tw-elements"
-
+import "./cursorEffect"
 
 // Uncomment the line below to add transition animations when Turbo navigates.
 // We recommend adding <meta name="turbo-cache-control" content="no-preview" />

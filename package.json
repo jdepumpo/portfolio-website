@@ -26,6 +26,7 @@
     "@hotwired/turbo": "^7.2.4",
     "@tailwindcss/typography": "^0.5.9",
     "bridgetown-lit-renderer": "2.0.0-beta3",
+    "cursor-effects": "^1.0.12",
     "devicons": "^1.8.0",
     "esbuild-plugin-lit-css": "^2.0.1",
     "lit": "^2.5.0",

@@ -5,8 +5,8 @@ layout: no_contain
 <div class="w-full shadow h-5/6 md:h-96 bg-gradient-to-b from-blue-900 to-blue-400 p-4 relative z-0 overflow-hidden">
   <div class="flex gap-2 flex-row place-items-center lg:justify-between lg:gap-x-6 h-full w-full z-40 xl:mx-auto max-w-7xl px-4 lg:px-8">
     <div class="grow z-40">
-      <h1 class="drop-shadow-md text-slate-100 text-left text-2xl sm:text-3xl lg:text-5xl text-shadow-lg">
-        I empower <span class="underline decoration-2 lg:decoration-4 lg:underline-offset-4 decoration-blue-300">marketing and sales teams</span> with <span class="underline decoration-2 lg:decoration-4 lg:underline-offset-8 decoration-blue-300">technology solutions</span>.
+      <h1 class="font-bold drop-shadow-md text-orange-400 text-left text-2xl sm:text-3xl lg:text-6xl text-shadow-lg" style="font-family: 'Tourney', cursive;">
+        Having fun building for the <span class="underline decoration-2 lg:decoration-4 lg:underline-offset-8 decoration-blue-400">web</span>.
       </h1>
     </div>
     <div class="relative h-full w-3/4 z-40">
@@ -18,9 +18,30 @@ layout: no_contain
 </div>
 
 <div class="xl:mx-auto max-w-7xl p-6 mx-4 my-8 sm:px-6 lg:px-8">
-  <article class="prose prose-zinc max-w-none lg:prose-xl prose-a:text-blue-500">
+  <article class="prose prose-zinc max-w-none lg:prose-xl prose-a:text-blue-500 prose-h1:text-blue-900 prose-h2:text-blue-900 prose-h3:text-blue-900">
     {{ content }}
   </article>
+
+  <div class="md:py-2"></div>
+
+  <h2>Expertise</h2>
+  <div class="grid grid-flow-row md:grid-flow-col md:grid-rows-2 lg:grid-rows-1 gap-4">
+    <section class="bg-white shadow rounded border border-slate-300 p-6">
+      <p><h3 class="inline">HTML that is</h3> highly semantic and follows best practices in accessibility.</p>
+    </section>
+    <section class="bg-white shadow rounded border border-slate-300 p-6">
+      <p><h3 class="inline">Styling with</h3> modern CSS properties, Sass/SCSS, and frameworks like OpenProps & Tailwind.</p>
+    </section>
+    <section class="bg-white shadow rounded border border-slate-300 p-6">
+      <p><h3 class="inline">JavaScript, including</h3> vanilla JS for interactivity, frameworks like Vue and Gatsby, and tooling like Webpack and NPM.</p>
+    </section>
+    <section class="bg-white shadow rounded border border-slate-300 p-6">
+      <p><h3 class="inline">Ruby on Rails</h3> to build full-featured, data-driven applications. Use tools like Turbo for SPA-like functionality.</p>
+    </section>
+  </div>
+
+
+  <!--
   <div>
     {% site.data.banners.each do |banners_hash| %}
       {% banner = banners_hash[1] %}
@@ -36,4 +57,54 @@ layout: no_contain
       <a class="block text-center bg-orange-500 text-white font-semibold text-2xl px-6 py-2 rounded shadow no-underline hover:shadow-lg hover:bg-orange-600" href="https://cloud.depumpo.com/index.php/apps/appointments/pub/5keyu3eR3RkC2poqzBI01/form" target="_blank">Book a Call Now <i class="fa fa-arrow-right"></i></a>
     </div>
   </div>
+
+  <div class="flex flex-row fill-slate-200">
+    <div class="w-full py-4 grid grid-flow-row sm:grid-flow-col gap-2">
+      {%= render PlatformCard.new(text: "HTML", icon: "fa-solid fa-code", color: "blue-500") %}
+      {%= render PlatformCard.new(text: "CSS", icon: "fa-brands fa-css3", color: "orange-500") %}
+      {%= render PlatformCard.new(text: "JavaScript", icon: "fa-brands fa-js", color: "yellow-500") %}
+      {%= render PlatformCard.new(text: "Rails", icon: "fa-rails", color: "slate-500") %}
+    </div>
+  </div>
+  -->
+
+  <div class="md:py-6"></div>
+
+  <h2>Well, How Did I Get Here?</h2>
+  <article class="prose prose-zinc max-w-none lg:prose-xl mb-4">
+    A brief timeline of how I got my start and how I have grown since:
+  </article>
+  <div class="grid grid-flow-row grid-col-1 gap-4 border-l-8 border-slate-300 bg-slate-200 py-4 pr-4">
+    {% collections.timeline.resources.each do |timeline| %}
+      <div class="flex flex-row items-center">
+        <i class="fa-solid fa-circle-dot text-2xl text-blue-500 animate-pulse -translate-x-4"></i>
+        {%= render TimelineCard.new(title: timeline.data.title, text: timeline.content) %}
+      </div>
+    {% end %}
+  </div>
+
+  <div class="md:py-6"></div>
+
+  <h2>Projects</h2>
+  {% collections.projects.resources.each do |project| %}
+    <div class="bg-white shadow rounded border border-slate-300 p-8">
+      <div class="flex flex-col gap-4 lg:flex-row lg:gap-16">
+        <div>
+          <a href="{{ project.relative_url }}" class="hover:text-blue-700"><h3><strong>{{ project.data.title }}</strong></h3></a>
+          <p>{%= project.data.description %}</p>
+          <div class="flex flex-wrap gap-2 gap-y-3 mt-4 lg:mt-8">
+            {% project.data.tags.each do |tag| %}
+              {%= render IconBadge.new(tag: tag) %}
+            {% end %}
+          </div>
+        </div>
+        <div class="shrink-0 flex flex-col gap-2 lg:gap-4 self-center">
+          <a href="https://github.com/jdepumpo/{{ project.data.github_repo }}" class="pointer-events-auto transition ease-in-out duration-300 text-center rounded-sm bg-slate-400 py-2 px-4 no-underline font-semibold text-white hover:bg-slate-500"><i class="devicon-github-plain text-white text-sm mr-2"></i><span>View on GitHub</span></a>
+          <a href="{{ project.relative_url }}" class="pointer-events-auto transition ease-in-out duration-300 text-center rounded-sm bg-blue-500 py-2 px-4 no-underline font-semibold text-white hover:bg-blue-900"><i class="fa-solid fa-arrow-right text-white text-sm mr-2"></i><span>Learn More</span></a>
+        </div>
+      </div>
+    </div>
+  {% end %}
+
+  <div class="md:py-6"></div>
 </div>

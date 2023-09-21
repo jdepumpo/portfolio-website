@@ -32,7 +32,7 @@
           <div class="flex flex-shrink-0 flex-col items-center">
             <img class="block h-8 w-auto lg:hidden" src="/images/jfd.svg" alt="Joe DePumpo">
             <img class="hidden h-8 w-auto lg:block" src="/images/jfd.svg" alt="Joe DePumpo">
-            <em class="text-slate-200">MarTech Consultant</em>
+            <em class="text-slate-200">Full-Stack Web Developer</em>
           </div>
         </a>
       </div>

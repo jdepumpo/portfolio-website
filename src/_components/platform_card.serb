@@ -1,4 +1,4 @@
-<platform-card class="bg-white shadow rounded border border-slate-300 p-2 flex flex-col items-center gap-y-2 max-w-sm">
-  <i class="text-{{ @color }} fa {{ @icon }} text-3xl"></i>
+<platform-card class="w-full bg-white shadow rounded border border-slate-300 p-2 flex flex-col items-center gap-y-2 max-w-sm">
+  <i class="{{ @icon }} text-{{ @color }} text-3xl"></i>
   <span class="text-center text-blue-900 font-bold">{{ @text }}</span>
 </platform-card>

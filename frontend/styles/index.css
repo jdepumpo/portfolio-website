@@ -3,6 +3,7 @@
 @import "jit-refresh.css"; /* triggers frontend rebuilds */
 @import "devicon.min.css";
 @import "platform-container.css";
+@import url('https://api.fonts.coollabs.io/css2?family=Tourney:wght@700&display=swap');
 
 /* Set up Tailwind imports */
 @tailwind base;
@@ -14,10 +15,10 @@
     @apply text-3xl my-6 text-blue-900;
   }
   h2 {
-    @apply text-2xl mb-4 mt-8 text-blue-900;
+    @apply text-2xl font-semibold mb-4 mt-8 text-blue-900;
   }
   h3 {
-    @apply text-lg;
+    @apply text-lg font-semibold;
   }
   a {
     @apply text-blue-500 underline;

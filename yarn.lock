@@ -568,6 +568,11 @@ csso@^4.2.0:
   dependencies:
     css-tree "^1.1.2"
 
+cursor-effects@^1.0.12:
+  version "1.0.12"
+  resolved "https://registry.yarnpkg.com/cursor-effects/-/cursor-effects-1.0.12.tgz#d5feb442403f9b91a034fd0d8ca47e19f1123a1a"
+  integrity sha512-HDaKd+GJjveac1g52krmFiJJg0HwnxCeKgktGaPpbv6/7z8/krYgmTpDZW9GZ01S5783R6cPhEHAgHWQEm211w==
+
 custom-event-polyfill@^1.0.7:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/custom-event-polyfill/-/custom-event-polyfill-1.0.7.tgz#9bc993ddda937c1a30ccd335614c6c58c4f87aee"
