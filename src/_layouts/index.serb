@@ -27,16 +27,16 @@ layout: no_contain
   <h2>Expertise</h2>
   <div class="grid grid-flow-row md:grid-flow-col md:grid-rows-2 lg:grid-rows-1 gap-4">
     <section class="bg-white shadow rounded border border-slate-300 p-6">
-      <p><h3 class="inline">HTML that is</h3> highly semantic and follows best practices in accessibility.</p>
-    </section>
-    <section class="bg-white shadow rounded border border-slate-300 p-6">
-      <p><h3 class="inline">Styling with</h3> modern CSS properties, Sass/SCSS, and frameworks like OpenProps & Tailwind.</p>
+      <p><h3 class="inline">Ruby on Rails</h3> to build full-featured, data-driven applications, with tools like Hotwire Turbo for SPA-like functionality.</p>
     </section>
     <section class="bg-white shadow rounded border border-slate-300 p-6">
       <p><h3 class="inline">JavaScript, including</h3> vanilla JS for interactivity, frameworks like Vue and Gatsby, and tooling like Webpack and NPM.</p>
     </section>
     <section class="bg-white shadow rounded border border-slate-300 p-6">
-      <p><h3 class="inline">Ruby on Rails</h3> to build full-featured, data-driven applications. Use tools like Turbo for SPA-like functionality.</p>
+      <p><h3 class="inline">HTML that is</h3> highly semantic and follows best practices in accessibility.</p>
+    </section>
+    <section class="bg-white shadow rounded border border-slate-300 p-6">
+      <p><h3 class="inline">Styling with</h3> modern CSS properties, Sass/SCSS, and frameworks like OpenProps & Tailwind.</p>
     </section>
   </div>
 
