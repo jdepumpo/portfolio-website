@@ -41,8 +41,12 @@
         <div class="hidden sm:ml-6 sm:block">
           <div class="flex space-x-4">
             <a href="{{'/' | relative_url}}" data-menu-active-target="desktop" class="px-4 py-2 rounded-md font-medium decoration-2 decoration-orange-400/60 underline-offset-2">Home</a>
-
+            
             <a href="{{'/resume/' | relative_url}}" data-menu-active-target="desktop" class="px-4 py-2 rounded-md font-medium decoration-2 decoration-orange-400/60 underline-offset-2">Resume</a>
+
+            <a href="https://go.jfd.is/linkedin/?ref=portfolio" data-menu-active-target="desktop" class="px-4 py-2 rounded-md font-medium decoration-2 decoration-orange-400/60 underline-offset-2"><i class="fa-brands fa-linkedin text-xl"></i></a>
+
+            <a href="https://go.jfd.is/github/?ref=portfolio" data-menu-active-target="desktop" class="px-4 py-2 rounded-md font-medium decoration-2 decoration-orange-400/60 underline-offset-2"><i class="fa-brands fa-github text-xl"></i></a>
           </div>
         </div>
       </div>

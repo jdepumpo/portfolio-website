@@ -3,7 +3,6 @@
 @import "jit-refresh.css"; /* triggers frontend rebuilds */
 @import "devicon.min.css";
 @import "platform-container.css";
-@import url('https://api.fonts.coollabs.io/css2?family=Tourney:wght@700&display=swap');
 
 /* Set up Tailwind imports */
 @tailwind base;
