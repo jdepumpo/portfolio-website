@@ -15,7 +15,7 @@ sitemap: true
 </div>
 
 <a href="https://travel-advisories.jfd.is/?ref=portfolio" target="_blank" class="pointer-events-auto no-underline">
-  <video class="my-4" autoplay muted loop alt="Screen recording of a user performing a search for the country 'Belgium' in the advisory.travel application.">
+  <video class="my-4" autoplay muted loop alt="Screen recording of a user performing a search for the country 'Belgium' in the Travel Advisories application.">
     <source src="/images/advisory-travel/country_search.webm" type="video/webm">
   Your browser does not support the video tag.
   </video>
