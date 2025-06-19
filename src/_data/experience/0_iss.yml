@@ -10,4 +10,7 @@ position:
 image_path: iss.svg
 description: >
   <ul>
+    <li>Develop and maintain integrations with Salesforce, Zoom, and other platforms using RESTful APIs, webhooks, and off-the-shelf integrations.</li>
+    <li>Develop complex workflows, custom UI components, and serverless functions that power core business functionality such as lead routing and syncing communication preferences.</li>
+    <li>Technical lead for successful HubSpot consolidation project that migrated three acquired HubSpot portals into one unified portal.</li>
   </ul>
