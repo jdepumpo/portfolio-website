@@ -5,4 +5,4 @@ category:
   - top_nav
 ---
 
-#### Hi, I am Joseph! I specialize in CRM (primarily HubSpot) development and systems integration, but also have full-stack experience building applications with Ruby on Rails.
+#### I am a HubSpot developer with extensive experience building automation that scales and developinging robust integrations that unify your CRM, marketing, and business systems.
