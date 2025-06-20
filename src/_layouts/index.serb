@@ -6,7 +6,7 @@ layout: no_contain
   <div class="flex gap-2 flex-row place-items-center lg:justify-between lg:gap-x-6 h-full w-full z-40 xl:mx-auto max-w-7xl px-4 lg:px-8">
     <div class="grow z-40">
       <h1 class="font-bold drop-shadow-md text-orange-400 text-left text-2xl sm:text-3xl lg:text-6xl text-shadow-lg">
-        Having fun building <span class="underline decoration-2 lg:decoration-4 lg:underline-offset-8 decoration-blue-400">better experiences</span> for the web.
+        Having fun building <span class="underline decoration-2 lg:decoration-4 lg:underline-offset-8 decoration-blue-400">better CRMs</span> and integrating systems.
       </h1>
     </div>
     <div class="relative h-full w-3/4 z-40">
@@ -27,16 +27,12 @@ layout: no_contain
   <h2>Expertise</h2>
   <div class="grid grid-flow-row md:grid-flow-col md:grid-rows-2 lg:grid-rows-1 gap-4">
     <section class="bg-white shadow rounded border border-slate-300 p-6">
-      <p><h3 class="inline">Ruby on Rails</h3> to build full-featured, data-driven applications, with tools like Hotwire Turbo for SPA-like functionality.</p>
+      <h3>HubSpot Development & Integration</h3>
+      <p>Extensive experience in CRM optimization, developing custom API integrations, and building effective enterprise automation.</p>
     </section>
     <section class="bg-white shadow rounded border border-slate-300 p-6">
-      <p><h3 class="inline">JavaScript, including</h3> vanilla JS for interactivity, frameworks like Vue and Gatsby, and tooling like Webpack and NPM.</p>
-    </section>
-    <section class="bg-white shadow rounded border border-slate-300 p-6">
-      <p><h3 class="inline">HTML that is</h3> highly semantic and follows best practices in accessibility.</p>
-    </section>
-    <section class="bg-white shadow rounded border border-slate-300 p-6">
-      <p><h3 class="inline">Styling with</h3> modern CSS properties, Sass/SCSS, and frameworks like OpenProps & Tailwind.</p>
+      <h3>Web Development</h3>
+      <p>Experience with Ruby on Rails, Elixir/Phoenix, and HubSpot CMS to build full-featured, dynamic applications and website.</p>
     </section>
   </div>
 

@@ -5,4 +5,4 @@ category:
   - top_nav
 ---
 
-#### Hi, I am Joe. Welcome to my corner of the internet. I am passionate about building thoughtfully designed applications with code that is maintainable and easy to understand.
+#### Hi, I am Joseph! I specialize in CRM (primarily HubSpot) development and systems integration, but also have full-stack experience building applications with Ruby on Rails.
