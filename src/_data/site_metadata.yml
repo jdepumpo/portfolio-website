@@ -4,8 +4,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.metadata.myvariable }}.
 
-title: Joe DePumpo
-tagline: Full-Stack Web Developer
+title: Joseph DePumpo
+tagline: Full-Stack Developer
 email: joe@depumpo.com
 description: >-
-  Joe DePumpo's portfolio website and home on the internet.
+  Joseph DePumpo's portfolio website and home on the internet.
