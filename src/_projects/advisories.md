@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Travel Advisories
+title: 🌍 Travel Advisories
 description: Built an application that helps keep international travelers safe by providing country travel advisories that are updated continuously. The back-end uses <strong>Ruby on Rails and PostgreSQL</strong>. The front-end uses <strong>HTML, Tailwind CSS, and vanilla JavaScript</strong> for interactivity and country maps.
 tags: rails ruby javascript html5 tailwindcss postgresql git
 github_repo: advisory-travel
