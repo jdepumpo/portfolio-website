@@ -1,8 +1,0 @@
-  collections:
-    projects:
-      output: true
-      permalink: simple
-      dates: false
-    timeline:
-      output: true
-      dates: false

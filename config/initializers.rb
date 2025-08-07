@@ -34,6 +34,17 @@ Bridgetown.configure do |config|
   # pagination do
   #   enabled true
   # end
+  collections do
+    projects do
+      output true
+      permalink "simple"
+      dates false
+    end
+    timeline do
+      output true
+      dates false
+    end
+  end
 
   # Configure the permalink style for pages and posts. Custom collections can be
   # configured separately under the `collections` key. Documentation here:
