@@ -1,6 +1,10 @@
 # Puma is a fast, concurrent web server for Ruby & Rack
 #
 # Learn more at: https://puma.io
+# Bridgetown configuration documentation:
+# https://edge.bridgetownrb.com/docs/configuration/puma
+
+# This port number can be overriden by a bind configuration option
 #
 port ENV.fetch("BRIDGETOWN_PORT") { 4000 }
 
@@ -14,6 +18,8 @@ end
 max_threads_count = ENV.fetch("BRIDGETOWN_MAX_THREADS") { 5 }
 min_threads_count = ENV.fetch("BRIDGETOWN_MIN_THREADS") { max_threads_count }
 threads min_threads_count, max_threads_count
+
+pidfile ENV["PIDFILE"] || "tmp/pids/server.pid"
 
 # Preload the application for maximum performance
 #

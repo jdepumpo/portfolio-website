@@ -32,37 +32,9 @@ layout: no_contain
     </section>
     <section class="bg-white shadow rounded border border-slate-300 p-6">
       <h3>Web Development</h3>
-      <p>Experience with Ruby on Rails, Elixir/Phoenix, and HubSpot CMS to build full-featured, dynamic applications and website.</p>
+      <p>Experience with Ruby on Rails, Elixir/Phoenix, and HubSpot CMS to build full-featured, dynamic applications and websites.</p>
     </section>
   </div>
-
-
-  <!--
-  <div>
-    {% site.data.banners.each do |banners_hash| %}
-      {% banner = banners_hash[1] %}
-      {%= render HomeBanner.new(bg: banner.bg, title: banner.title, text: banner.text, icon: banner.icon, alt: banner.alt) %}
-    {% end %}
-  </div>
-  <div class="w-full p-4 py-8 rounded bg-blue-900 shadow border border-slate-300 flex flex-col sm:flex-row gap-4 gap-y-6 justify-around items-center">
-    <div>
-      <h3 class="text-4xl text-white font-bold">Ready to get started?</h3>
-      <p class="text-xl text-white">Let's schedule a quick 20 minute call to see how I can help you.</p>
-    </div>
-    <div>
-      <a class="block text-center bg-orange-500 text-white font-semibold text-2xl px-6 py-2 rounded shadow no-underline hover:shadow-lg hover:bg-orange-600" href="https://cloud.depumpo.com/index.php/apps/appointments/pub/5keyu3eR3RkC2poqzBI01/form" target="_blank">Book a Call Now <i class="fa fa-arrow-right"></i></a>
-    </div>
-  </div>
-
-  <div class="flex flex-row fill-slate-200">
-    <div class="w-full py-4 grid grid-flow-row sm:grid-flow-col gap-2">
-      {%= render PlatformCard.new(text: "HTML", icon: "fa-solid fa-code", color: "blue-500") %}
-      {%= render PlatformCard.new(text: "CSS", icon: "fa-brands fa-css3", color: "orange-500") %}
-      {%= render PlatformCard.new(text: "JavaScript", icon: "fa-brands fa-js", color: "yellow-500") %}
-      {%= render PlatformCard.new(text: "Rails", icon: "fa-rails", color: "slate-500") %}
-    </div>
-  </div>
-  -->
 
   <div class="md:py-6"></div>
 

@@ -1,35 +1,30 @@
 {
-  "name": "portfolio",
+  "name": "mysite",
   "version": "1.0.0",
+  "type": "module",
   "private": true,
   "scripts": {
     "esbuild": "node esbuild.config.js --minify",
     "esbuild-dev": "node esbuild.config.js --watch"
   },
   "devDependencies": {
-    "@ruby2js/esbuild-plugin": "^0.0.3",
-    "cssnano": "^5.1.14",
-    "esbuild": "^0.14.39",
-    "glob": "^8.0.1",
-    "postcss": "^8.4.12",
-    "postcss-color-mod-function": "^3.0.3",
+    "@fortawesome/fontawesome-free": "^6.2.1",
+    "@hotwired/stimulus": "^3.2.2",
+    "@tailwindcss/postcss": "^4.1.11",
+    "@tailwindcss/typography": "^0.5.9",
+    "cursor-effects": "^1.0.12",
+    "esbuild": "^0.20.2",
+    "glob": "^10.3.3",
+    "postcss": "^8.4.29",
     "postcss-flexbugs-fixes": "^5.0.2",
-    "postcss-import": "^14.1.0",
-    "postcss-load-config": "^3.1.4",
-    "postcss-mixins": "^9.0.4",
-    "postcss-preset-env": "^7.4.3",
-    "tailwindcss": "^3.2.4"
+    "postcss-import": "^15.1.0",
+    "postcss-load-config": "^4.0.1",
+    "postcss-preset-env": "^9.1.2",
+    "read-cache": "^1.0.0",
+    "tailwindcss": "^4.1.11"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^6.2.1",
-    "@hotwired/stimulus": "^3.2.1",
-    "@hotwired/turbo": "^7.2.4",
-    "@tailwindcss/typography": "^0.5.9",
-    "bridgetown-lit-renderer": "2.0.0-beta3",
-    "cursor-effects": "^1.0.12",
-    "devicons": "^1.8.0",
-    "esbuild-plugin-lit-css": "^2.0.1",
-    "lit": "^2.5.0",
-    "tw-elements": "^1.0.0-alpha13"
+    "@hotwired/turbo": "^8.0.13",
+    "turbo-shadow": "^1.2.0"
   }
 }

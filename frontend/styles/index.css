@@ -1,6 +1,11 @@
 /* If you need to add @import statements, do so up here */
 
 @import "jit-refresh.css"; /* triggers frontend rebuilds */
+
+/* Set up Tailwind imports */
+@import "tailwindcss";
+
+@import "jit-refresh.css"; /* triggers frontend rebuilds */
 @import "devicon.min.css";
 @import "platform-container.css";
 
@@ -8,6 +13,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@plugin "@tailwindcss/typography";
 
 @layer base {
   h1 {
